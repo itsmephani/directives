@@ -1,4 +1,4 @@
-wellthily.directive('backgroundImage', [function () {
+ang.directive('backgroundImage', [function () {
   return {
     restrict: 'A',
     scope: {backgroundImage: '@'},

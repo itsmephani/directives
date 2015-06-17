@@ -1,4 +1,4 @@
-wellthily.directive('datatable', function($rootScope, $http, $routeParams, $location, $injector) {
+ang.directive('datatable', function($rootScope, $http, $routeParams, $location, $injector) {
 	return {
 		restrict: 'AE',
 		scope: false,

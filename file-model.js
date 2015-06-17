@@ -1,4 +1,4 @@
-wellthily.directive('fileModel', ['$parse', function ($parse) {
+ang.directive('fileModel', ['$parse', function ($parse) {
     return {
         restrict: 'A',
         link: function(scope, element, attrs) {

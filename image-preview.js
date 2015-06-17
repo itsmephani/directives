@@ -1,4 +1,4 @@
-wellthily.directive('imagePreview', [function () {
+ang.directive('imagePreview', [function () {
   return {
     restrict: 'A',
     link: function(scope, element, attrs) {

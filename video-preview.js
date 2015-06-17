@@ -1,4 +1,4 @@
-wellthily.directive('videoPreview', [function () {
+ang.directive('videoPreview', [function () {
   return {
     restrict: 'A',
     link: function(scope, element, attrs) {
