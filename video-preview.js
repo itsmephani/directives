@@ -19,8 +19,6 @@ ang.directive('videoPreview', [function () {
             angular.element(attrs.videoPreview).remove();
             var selector = (attrs.videoPreview[0] == '#' ? "class='preview' id=" : "class= preview ") + attrs.videoPreview.substring(1);
             var html = '<video height="350" controls ' + selector + '>\
-              <source src="movie.mp4" type="video/mp4"> \
-              <source src="movie.ogg" type="video/ogg"> \
                 Your browser does not support the video tag. \
               </video>';
 
