@@ -1,4 +1,4 @@
-app.directive('backgroundImage', ['$rootScope', function ($rootScope) {
+ang.directive('backgroundImage', ['$rootScope', function ($rootScope) {
   return {
     restrict: 'A',
     scope: false,
