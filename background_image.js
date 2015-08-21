@@ -1,4 +1,4 @@
-wellthily.directive('backgroundImage', ['$rootScope', function ($rootScope) {
+app.directive('backgroundImage', ['$rootScope', function ($rootScope) {
   return {
     restrict: 'A',
     scope: false,
