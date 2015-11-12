@@ -1,4 +1,4 @@
-bloodAndTreasure.directive('float', [function () {
+ang.directive('float', [function () {
   return {
     restrict: 'C',
     link: function(scope, element, attrs) {
